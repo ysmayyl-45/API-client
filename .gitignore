@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production build artifacts
+dist/
+dist-ssr/
+*.local
+
+# Environment & credentials (contains sensitive API keys or URLs)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+# Local chat backups and data exports (contains private chat history and API keys)
+*backup*.json
+9router_backup_*.json
+*.backup.json
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.log
+
+# Caches and diagnostics
+.mypy_cache/
+.vite/
+.eslintcache
+
+# Editor & OS files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
